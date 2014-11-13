@@ -1,0 +1,13 @@
+﻿{
+  "name": "node-js-getting-started",
+  "version": "0.1.2",
+ "private": true, "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+ , "socket.io": "1.1.0" },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
