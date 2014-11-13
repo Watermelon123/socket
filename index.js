@@ -9,7 +9,7 @@ var app = require('express')();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
-server.listen(3010);
+server.listen(process.env.PORT || 5000);
 
 app.get('/chat', function (req, res) {
     res.sendFile(__dirname + '/index.html');
